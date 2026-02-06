@@ -7,6 +7,7 @@ print(resposta_usuario)
 if resposta_usuario != "SIM":
     print("Encerrando o Quiz, até mais...")
     quit()
+score =  0
 
 print("Começando...")
 
@@ -16,6 +17,7 @@ r1 = input("Resposta: ")
 
 if r1 == "B":
     print("Correto!")
+    score = score +1
 else:
     print("Incorreto!")
 
@@ -25,6 +27,7 @@ r2 = input("Resposta: ")
 
 if r2 == "A":
     print("Correto!")
+    score = score +1
 else:
     print("Incorreto!")
 
@@ -34,6 +37,7 @@ r3 = input("Resposta: ")
 
 if r3 == "B":
     print("Correto!")
+    score = score +1
 else:
     print("Incorreto!")
 
@@ -43,6 +47,7 @@ r4 = input("Resposta: ")
 
 if r4 == "A":
     print("Correto!")
+    score = score +1
 else:
     print("Incorreto!")
 
@@ -52,5 +57,8 @@ r5 = input("Resposta: ")
 
 if r5 == "B":
     print("Correto!")
+    score = score +1
 else:
     print("Incorreto!")
+
+print(f"Sua pontuação foi de: {score} pontos")
