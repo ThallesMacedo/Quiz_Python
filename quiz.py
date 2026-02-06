@@ -14,7 +14,7 @@ print("Começando...")
 print("Para que serve o Git? \n (A) Editar imagens \n (B) Controlar versões de código \n (C) Criar jogos \n")
 r1 = input("Resposta: ")
 
-if r1 == "A":
+if r1 == "B":
     print("Correto!")
 else:
     print("Incorreto!")
@@ -23,7 +23,7 @@ else:
 print("Qual comando inicia um repositório Git? \n (A) git start \n (B) git init \n (C) git create \n")
 r2 = input("Resposta: ")
 
-if r2 == "B":
+if r2 == "A":
     print("Correto!")
 else:
     print("Incorreto!")
